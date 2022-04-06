@@ -1,0 +1,24 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.titre {
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+    margin: auto auto auto auto;
+    color: black;
+    text-decoration: underline;
+}
+.titre2 {
+    font-size: 1.5rem;
+    margin: auto auto auto auto;
+    font-style: oblique;
+    color: burlywood;
+    text-align: center;
+}
+.film {
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+    color: brown;
+}
