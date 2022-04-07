@@ -41,13 +41,7 @@ h3 {
     color: black;
 
 }
-.image {
-    display: inline-flex;
-    margin: 2rem auto 2rem auto;
-    width: 380px;
-    height: 430px;
-    text-align: center;
-    justify-content: center;
+
 }
 .fincher {
     text-align:center;
@@ -64,4 +58,15 @@ h3 {
     padding: auto auto auto auto;
     color: burlywood;
     text-align: center;
+}
+.lien-ytb {
+    display: flex;
+    justify-content: end;
+}
+.image {
+    display: flex;
+    justify-content: flex-start
+    width: 380px;
+    height: 430px;
+    align-items: flex-start;
 }
