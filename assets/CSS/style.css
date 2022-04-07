@@ -17,14 +17,19 @@ body {
     color: black;
 }
 .titre2 {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     margin: auto auto auto auto;
-    font-style: oblique;
+    padding: auto auto auto auto;
     color: burlywood;
     text-align: center;
 }
 .film {
-    text-decoration: none;
+    color: red;
+    font-size: 2rem;
+    font-style: italic;
+}
+h3 {
+    text-align: center;
 }
 .cdc {
     font-size: 1rem;
@@ -34,4 +39,17 @@ body {
     text-align: center;
     color: black;
 
+}
+.image {
+    display: inline-flex;
+    margin: auto auto auto aut;
+    width: 380px;
+    height: 430px;
+    text-align: center;
+    justify-content: center;
+}
+.fincher {
+    text-align:center;
+    margin:auto;
+    display:flex;
 }
