@@ -1,16 +1,17 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: palevioletred;
 }
 .navbar {
     text-align: center;
     overflow: hidden;
-    margin: 1rem auto auto auto;
+    margin: 2rem auto 2rem auto;
     color: black;
     padding: auto auto auto auto;
     font-size: 1.5rem;
 }
 :hover.navbar {
-    background-color: burlywood;
+    background-color: black;
     transition: 50ms;
 }
 .titre {
@@ -22,13 +23,13 @@ body {
 }
 .titre2 {
     font-size: 2.5rem;
-    margin: auto 2rem auto 2rem;
+    margin: 3rem auto 3rem auto;
     padding: auto auto auto auto;
-    color: burlywood;
+    color: black;
     text-align: center;
 }
 .film {
-    color: red;
+    color: black;
     font-size: 2rem;
     font-style: italic;
     margin: 2rem auto 2rem auto;
@@ -46,22 +47,23 @@ h3 {
 
 }
 
-}
-.fincher {
-    display:flex;
-    justify-content: center;
-    
-    
-}
+.camera {
+    text-align: center;
+}  
+.camera > img {
+    display: block;
+    width: 25rem;
+    margin: 0 auto;
+    height: auto;
+}    
 .formulaire {
     text-align: center
-    color ;
 }
 .titre3 {
     font-size: 2.5rem;
     margin: 2rem auto 2rem auto;
     padding: auto auto auto auto;
-    color: burlywood;
+    color: black;
     text-align: center;
 }
 .lien-ytb {
@@ -79,4 +81,11 @@ h3 {
 }
 .synopsis {
     width: 45%;
+    margin: auto auto auto auto;
+    text-align: center;
+}
+label,input,select,textarea {
+    display: block;
+    text-align: center;
+    margin: auto auto auto auto;
 }
