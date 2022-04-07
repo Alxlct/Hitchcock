@@ -27,6 +27,7 @@ body {
     color: red;
     font-size: 2rem;
     font-style: italic;
+    margin: 2rem auto 2rem auto;
 }
 h3 {
     text-align: center;
@@ -42,7 +43,7 @@ h3 {
 }
 .image {
     display: inline-flex;
-    margin: auto auto auto aut;
+    margin: 2rem auto 2rem auto;
     width: 380px;
     height: 430px;
     text-align: center;
@@ -52,4 +53,15 @@ h3 {
     text-align:center;
     margin:auto;
     display:flex;
+}
+.formulaire {
+    text-align: center
+    color ;
+}
+.titre3 {
+    font-size: 2.5rem;
+    margin: 2rem auto 2rem auto;
+    padding: auto auto auto auto;
+    color: burlywood;
+    text-align: center;
 }
